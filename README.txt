@@ -1,46 +1,24 @@
+# Project Dawn (Discontinued)
+---
+### Author: Dante Samarco
+### May 2020 - April 2021
+---
+## Overview
+An overly ambitious Minecraft mod that planned on adding:
+- New weapons
+- New weapon types
+- A vanilla-styled magic system
+- New materials to gather
+- New enemies
+- More bosses
+- More structures
+- The list goes on..
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+## Reflection
+The mod was my first dive into anything related to game development. I was still relatively new to programming at the time, just about a year into it, and was still very much a hobby to me. I loved Minecraft at the time, now having a weird love/hate relationship with it, and have always had a fascination with it's modding scene. It's what really got me wanting to be a games developer in the first place. 
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+However, the project was met with a lot of furstration and roadblocks. My ambitious mind did not comprehend the amount that goes into developing a full mod, let alone a single feature. I was managing the development, art, and marketing apects of the project. I had to develop a feature, get it to work with the current codebase, and make sure it worked/felt good gameplay wise. I would then have to create the assets, make sure they were polished, and go back to make adjustments when they weren't. All the while making sure community engagement was up across various Minecraft related subReddits. It was a large task for someone who just really started to understand what code even was, and I'm surprised the mod gained the traction it really did.
 
-Setup Process:
-==============================
+I really burnt myself out trying to work on this project while staying ontop of school, I would have massive migraines for days, and eventually had to retire the project. I came to understand that my programming skills were simply not there yet, and that the direction I wanted to take the mod could be it's own game *wink wink to future self/anyone*. Since then, I've been sharpening my programming skills, very much in love with C, and have been refining my ideas for said future game *wink wink to future self/anyone reading this*
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
-
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `gradlew genEclipseRuns` (`./gradlew genEclipseRuns` if you are on Mac/Linux)
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
-
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `gradlew genIntellijRuns` (`./gradlew genIntellijRuns` if you are on Mac/Linux)
-4. Refresh the Gradle Project in IDEA if required.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
-
-Additional Resources: 
-=========================
-Community Documentation: http://mcforge.readthedocs.io/en/latest/gettingstarted/  
-LexManos' Install Video: https://www.youtube.com/watch?v=8VEdtQLuLO0  
-Forge Forum: https://forums.minecraftforge.net/  
-Forge Discord: https://discord.gg/UvedJ9m  
+I'll check this mod's project page every now and then linked in this repository if you wanted to check it out, and it's amazing to see how far I've come both as an artist and programmer.
